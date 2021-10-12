@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #8368fc, #4931b3);
+  font-family: Helvetica, sans-serif;
+  overflow: visible;
+}
+
+.btnHome {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.login-page h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 5px 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: Helvetica, sans-serif;
+  outline: 0;
+  background: #eeeded;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  margin: 0 0 15px;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+
+.form .message a {
+  color: #8368fc;
+  text-decoration: none;
+}
+
+.form button {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  background: #6247da;
+  outline: 0;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3 ease;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #7c67db;
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
+
+/* 
+.valid {
+  margin-top: -10px;
+  padding: 10px;
+  display: block;
+  line-height: 15px;
+  color: #d8000c;
+  background-color: #ffd2d2;
+  font-size: 16px;
+  font-weight: 0;
+}
+
+.valid:hover {
+  cursor: not-allowed;
+} */
+
+#required-text {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: #d8000c;
+}
